@@ -1,0 +1,130 @@
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+
+
+.footerlinks a,
+.footerlinks div {
+  color: white;
+}
+
+.footerlinks {
+  margin-top: 2.7rem;
+}
+
+.footerlinks2 * {
+  color: #D8D8D8;
+  font-size: 0.875rem;
+}
+
+.footerlinks2 a {
+  color: #D8D8D8;
+}
+
+.footerlinks3 * {
+  color: #D8D8D8;
+  font-size: 0.875rem;
+}
+
+.footer-links-mobile * {
+  color: #D8D8D8;
+  font-size: 0.75rem;
+}
+
+.footer-links-mobile a {
+  color: #D8D8D8;
+  font-size: 0.75rem;
+}
+
+.footerlinks3 a {
+  color: #D8D8D8;
+}
+
+.footerlinks2 {
+  margin-left: 3.625rem;
+  margin-right: 4.6875rem;
+  margin-top: 0.12rem;
+}
+
+.footerlinks3 {
+  margin-right: 1.875rem;
+  margin-left: -0.625rem;
+  margin-top: 0.03rem;
+}
+
+.privacy-policy a {
+  color: #3399EF;
+  font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: 0;
+}
+
+.copyrights,
+.copyrights a {
+  color: #FFFFFF;
+  font-size: 0.75rem;
+  letter-spacing: 0;
+}
+
+.footer-line-2 {
+  font-size: 0.75rem;
+  color: #979797;
+  margin-top: 0.25rem;
+}
+
+.footer {
+  background-color: #333333;
+}
+
+@media only screen and (max-width: 600px) {
+  .social-icons {
+    margin-bottom: -0.6rem;
+    margin-top: 1rem;
+  }
+}
+
+.footer-mobile .type-3 a,.footer-mobile .type-3 {
+  color: #FFFFFF;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.footer-mobile .sub-links a{
+  color: #FFFFFF;
+  font-size: 0.75rem;
+}
+
+.footer-mobile.accordion-icons .btn:before {
+  font-family: Font Awesome\ 5 Free;
+  font-weight: 800;
+  color: white;
+  content: "\f068";
+}
+
+.footer-mobile.accordion-icons .btn.collapsed:before {
+  content: "\f067";
+}
+
+.footer-mobile.accordion-icons .btn:hover,
+.footer-mobile.accordion-icons .btn:active,
+.footer-mobile.accordion-icons .btn:focus {
+  text-decoration: none;
+}
+
+.footer-mobile .btn-plus {
+  padding: 0 !important;
+}
+
+.footer-mobile .border-bottom-custom {
+  border-bottom: 1px solid #7575758d;
+}
+
+.footer-mobile .border-top-custom {
+  border-top: 1px solid #7575758d;
+}
+
+#block-footerlinksblock,
+#block-footerlinksblock-2 {
+  width: 100%;
+}

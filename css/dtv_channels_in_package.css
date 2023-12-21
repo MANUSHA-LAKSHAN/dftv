@@ -1,0 +1,21 @@
+.list-of-channels-section .nav-tabs {
+  border-bottom: none;
+}
+.list-of-channels-section .nav-tabs .nav-link.active {
+  background-color: transparent;
+}
+.list-of-channels-section .nav-tabs .nav-link .off-grey-color {
+  color: #A9ACB9 !important;
+}
+.list-of-channels-section .nav-tabs .nav-link.active .off-grey-color {
+  color: #333333 !important;
+}
+.list-of-channels-section .slide-navs .slick-track {
+    margin-left: auto !important;
+}
+@media(min-width: 992px) {
+  .list-of-channels-section .slick-list {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}

@@ -1,0 +1,104 @@
+.search-content .banner {
+    margin-bottom: 5.3125rem;
+}
+
+.search-content .faq-list .faq-titles {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 1.5625rem;
+}
+
+.search-content .search-no-content .p-mar-bot {
+    margin-bottom: 6rem;
+}
+
+.search-content .search-no-content h4 {
+    margin-bottom: 2rem;
+}
+
+.search-content .search-no-content p {
+    color: #757575;
+}
+
+
+.search-content .jumbotron {
+    border-radius: 0;
+}
+
+.bootstrap-autocomplete.dropdown-menu {
+    margin-top: -2px;
+}
+
+.dropdown-menu {
+    box-shadow: 0 13px 12px 0 rgba(55, 58, 98, 0.2);
+    -webkit-box-shadow: 0 13px 12px 0 rgba(55, 58, 98, 0.2);
+    -moz-box-shadow: 0 13px 12px 0 rgba(55, 58, 98, 0.2);
+}
+
+.search-content .z-index-none {
+    z-index: unset;
+}
+
+#loading-main {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+
+.spinner-color {
+    color: #EF005A;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.modal .spinner-content {
+    display: contents;
+}
+
+.modal {
+    z-index: 10000;
+}
+
+.modal-backdrop {
+    background-color: white;
+    z-index: 9999;
+}
+
+.search-content .suggestion-spinner {
+    width: 54px;
+    height: 54px;
+    right: 2px;
+    top: 1px;
+    z-index: 0;
+    color: #ef005a !important;
+}
+
+.form-group .form-control:focus, .form-row .form-control:focus, .form-inline .form-control:focus {
+    border: 1px solid transparent !important;
+}
+
+@media (max-width: 768px) {
+    .search-content .banner {
+        margin-bottom: 3rem;
+    }
+    .search-content .faq-list .faq-titles {
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: #333333;
+        margin-bottom: 1rem;
+    }
+    .search-content .search-no-content .p-mar-bot {
+        margin-bottom: 2.4rem;
+    }
+    .search-content .search-no-content p {
+        font-size: 0.75rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .search-content .p-top {
+        padding-top: 7rem;
+    }
+}

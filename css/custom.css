@@ -1,0 +1,43 @@
+.common-spinner .spinner-color {
+    color: #EF005A;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.common-spinner .loading-modal .spinner-content {
+    display: contents;
+}
+
+.common-spinner .loading-modal {
+    z-index: 10000;
+}
+
+.common-spinner {
+    opacity: 0.5;
+    background-color: white !important;
+    z-index: 9999;
+}
+
+.common-error-block p .error-description{
+    color: #0052cc;
+}
+
+.hbb-packages-pp-w-carouse .fixed-height-card .card-body{
+    height: 600px;
+}
+
+@media (max-width: 374px) {
+    .loading-no-result{
+        margin-top: -92px;
+    }
+}
+@media (max-width: 440px) {
+    .loading-no-result{
+        margin-top: -92px;
+    }
+}
+@media (max-width: 575px) {
+    .loading-no-result{
+        margin-top: -92px;
+    }
+}
